@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
             app: './src/app.js'
         },
         output: {
-            path: path.resolve(__dirname, './www/themes/wordpress/assets/'),
+            path: path.resolve(__dirname, './www/themes/adonaiconsultoria/assets/'),
             filename: '[name].js'
         }
     };

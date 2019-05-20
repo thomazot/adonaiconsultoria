@@ -21,7 +21,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
 	<meta name="theme-color" content="#ffa500">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
 
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );  ?>
