@@ -1056,11 +1056,26 @@ div.wpcf7 .ajax-loader:before {
 }
 
 .numbers {
-  background: #333;
+  position: relative;
+  background: url(bg-3557e636cd5d96b3e0555f25ecbd42af.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding: 1.875rem 0;
 }
+.numbers:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 1;
+}
 .numbers__container {
+  position: relative;
+  z-index: 2;
   width: 100%;
   max-width: 81.25rem;
   margin: 0 auto;
@@ -1449,6 +1464,17 @@ div.wpcf7 .ajax-loader:before {
 }
 .footer .menu__link--sub {
   padding: 0.3125rem 0;
+}
+#whatsapp a {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 100;
+  font-size: 1.5625rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#98fa96), to(#6fd363));
+  padding: 0.3125rem 0.625rem;
+  border-radius: 5px;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .footer {

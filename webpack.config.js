@@ -88,7 +88,7 @@ module.exports = (env, argv) => {
                                 path.resolve(__dirname, './src/configs/assets/variables.styl')
                             ]
                         }
-                    },
+                    }
                 ]
             }
         ]
