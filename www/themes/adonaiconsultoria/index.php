@@ -34,7 +34,7 @@ get_header();
 		<div class="post-list post-list--cases" id="depoimento">
 			<div class="post-list__container">
 				<div class="post-list__header">
-					<h3 class="post-list__title">Cases de Sucesso</h3>
+					<h3 class="post-list__title">Últimas Notícias</h3>
 				</div>
 				<?php zotCases(); ?>
 			</div>
@@ -81,19 +81,6 @@ get_header();
 			</div>
 		</div>
 		<?php endif; ?>
-
-		<div class="partners" data-carousel="true">
-			<div class="partners__container">
-				<div class="partners__inner">
-					<div class="partners__header">
-						<h3 class="partners__title">Empresas Parceiras</h3>
-					</div>
-					<div class="partners__content">
-						<?php zotPartners(); ?>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<?php 
 		$contactTitle = get_theme_mod('contact_title');
