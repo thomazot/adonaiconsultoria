@@ -639,7 +639,7 @@ div.wpcf7 .ajax-loader:before {
 
 
 .logo {
-  width: 9.375rem;
+  width: 18.75rem;
 }
 .logo img {
   width: 100%;
@@ -750,7 +750,6 @@ div.wpcf7 .ajax-loader:before {
 }
 .banner img {
   width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      font-family: "object-fit:cover";
      object-fit: cover;
@@ -1204,7 +1203,7 @@ div.wpcf7 .ajax-loader:before {
   top: 0;
   left: 0;
   z-index: 200;
-  background: #fff;
+  background: #000;
 }
 [data-scrolling=true] .header {
   -webkit-box-shadow: 0 1px 0 #333, 0 0 10px rgba(0,0,0,0.5);
@@ -1233,12 +1232,15 @@ div.wpcf7 .ajax-loader:before {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.header__menu a {
+  color: #fff;
+}
 .header__menu-open {
   padding: 0;
   font-size: 1.5rem;
   background: none;
   color: #333;
-  border: solid 1px #333;
+  border: solid 1px #fff;
   border-radius: 3px;
   padding: 0.3125rem 0.625rem;
 }
@@ -1383,7 +1385,7 @@ div.wpcf7 .ajax-loader:before {
     visibility: visible;
   }
   .header__menu .menu__item--contato .menu__link {
-    border: solid 2px #333;
+    border: solid 2px #fff;
     border-radius: 3px;
     font-weight: 800;
     text-transform: uppercase;
