@@ -2,8 +2,10 @@ define(['jquery'], ($) => {
     const hash = window.location.hash;
 
     if(hash) {
-        const el = $(hash);
-        scrollElement(el);
+        document.addEventListener("DOMContentLoaded", function(){
+            const el = $(hash);
+            scrollElement(el);
+        });
     }
 
     $('.menu a').click((evt) => {
